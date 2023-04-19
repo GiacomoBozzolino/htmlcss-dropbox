@@ -24,3 +24,43 @@ header{
 .nav{
     background-color: brown;
 }
+/* FINE CLASSI HEADER */
+/* INIZIO CLASSI MAIN */
+
+.jumbotron{
+    background-color: dodgerblue;
+}
+.big-container{
+    max-width: 1400px;
+    margin:0 auto;S
+}
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column-50{
+     height: 300px;   /*ALTEZZA FISSA DA RIMUOVERE  */
+    background-color: brown;
+    margin: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.content{
+   position: relative;
+}
+
+.description{
+    display: inline-block;
+    background-color: blueviolet;
+    height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
+    width: 50%;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:30px
+
+}
