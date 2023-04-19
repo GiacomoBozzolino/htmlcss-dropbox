@@ -14,12 +14,13 @@ header{
     height: 100%;
     display: flex;
 }
-.column-100{
+.column-nav{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: darkblue;
 }
 
 .nav{
@@ -33,18 +34,15 @@ header{
 }
 .big-container{
     max-width: 1400px;
-    margin:0 auto;S
+    margin:0 auto;
 }
-.main-section{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .column-50{
-     height: 300px;   /*ALTEZZA FISSA DA RIMUOVERE  */
-    background-color: brown;
+    height: 100px;   /*ALTEZZA FISSA DA RIMUOVERE  */
+    background-color: rgb(182, 195, 40);
     margin: 10px;
-    width: 100%;
-    display: inline-block;
+    width: calc(100%/2 - 20px);
+   
 }
 
 .content{
@@ -52,7 +50,6 @@ header{
 }
 
 .description{
-    display: inline-block;
     background-color: blueviolet;
     height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
     width: 50%;
@@ -73,35 +70,45 @@ header{
     margin-top: 20px;
 }
 
-.second-section{
+.wrap{
     flex-wrap: wrap;
 }
 
-.column-33{    /*RIVEDERE NOME CLASSE  */
+.column-100{    /*RIVEDERE NOME CLASSE  */
     height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
-    width: calc(100% - 20px);
+    width: 100%;
     margin: 10px;
     background-color: chocolate;
 }
 
 
-.column-price{    /*RIVEDERE NOME CLASSE  */
+.column-33{    /*RIVEDERE NOME CLASSE  */
     height: 200px; /*ALTEZZA FISSA DA RIMUOVERE  */
     width: calc(100%/3 - 20px);
     margin: 10px;
     background-color: rgb(167, 17, 32);
 }
 
+/* FINE CLASSI SECONDA SEZIONE */
+/* INIZIO CLASSI TERZA SEZIONE */
+
 .column-60{
-    height: 300px;
+    height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
     width: 60%;
     background-color: darkgreen;
     margin: 10px;
 }
 
 .column-40{
-    height: 300px;
+    height: 300px;/*ALTEZZA FISSA DA RIMUOVERE  */
     width: 40%;
     background-color: darkblue;
     margin: 10px;
 }
+
+/* FINE CLASSI TERZA SEZIONE */
+
+/* INIZIO CLASSI QUARTA SEZIONE */
+/* FINE CLASSI QUARTA SEZIONE */
+/* INZIO CLASSI QUINTA SEZIONE */
+/* FINE CLASSI QUINTA SEZIONE */
