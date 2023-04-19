@@ -7,7 +7,6 @@
 /* INIZIO CLASSI HEADER */
 header{
     height: 100px;
-    background-color: blue;
 }
 
 .row{
@@ -20,13 +19,18 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkblue;
+    
 }
 
-.nav{
-    background-color: brown;
+.nav > li{
+    display: inline-block;
+    margin:0 10px;
 }
 /* FINE CLASSI HEADER */
+
+
+
+
 /* INIZIO CLASSI MAIN */
 /* CLASSI PRIMA SEZIONE */
 .jumbotron{
@@ -46,7 +50,11 @@ header{
 }
 
 .content{
-   position: relative;
+   
+}
+
+.position-relative{
+    position:relative
 }
 
 .description{
