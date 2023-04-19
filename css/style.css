@@ -3,3 +3,24 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/* INIZIO CLASSI HEADER */
+header{
+    height: 100px;
+    background-color: blue;
+}
+
+.row{
+    height: 100%;
+}
+.column-100{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    background-color: brown;
+}
