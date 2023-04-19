@@ -74,7 +74,7 @@ header{
     flex-wrap: wrap;
 }
 
-.column-100{    /*RIVEDERE NOME CLASSE  */
+.column-100{    
     height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
     width: 100%;
     margin: 10px;
@@ -82,7 +82,7 @@ header{
 }
 
 
-.column-33{    /*RIVEDERE NOME CLASSE  */
+.column-33{    
     height: 200px; /*ALTEZZA FISSA DA RIMUOVERE  */
     width: calc(100%/3 - 20px);
     margin: 10px;
@@ -112,3 +112,23 @@ header{
 /* FINE CLASSI QUARTA SEZIONE */
 /* INZIO CLASSI QUINTA SEZIONE */
 /* FINE CLASSI QUINTA SEZIONE */
+
+/* FINE CLASSI MAIN */
+/* CLASSI FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.column-20{
+    height: 300px;/*ALTEZZA FISSA DA RIMUOVERE  */
+    width: 20%;
+    background-color: darkblue;
+    margin: 10px;
+}
+
+#language{
+    display: inline-block;
+    border-top: 1px solid white;
+    padding: 10px 0;
+}
