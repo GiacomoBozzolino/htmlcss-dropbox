@@ -25,16 +25,16 @@ a {
 
 p{
     font-size: 17px;
-    padding-right: 10px;
+    
 }
-.column-60{
-    width: 60%; 
+.column-70{
+    width: 70%; 
   
 }
 
-.column-40{
-    width: 40%; 
-    
+.column-30{
+    width: 30%; 
+   
 }
 
 .column-100{    
@@ -67,17 +67,17 @@ header{
 
 .row{
     height: 100%;
-    display: flex;
-    
+    display: flex; 
 }
+
 .column-nav{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
+
 .nav{
     font-size: 20px;
 }
@@ -98,12 +98,12 @@ header{
 /* CLASSI PRIMA SEZIONE */
 .jumbotron{
     background-color: rgba(180,208,231,255);
-   
 }
 
 .big-container{
     max-width: 1400px;
     margin:0 auto;  
+
 }
 
 h2{
@@ -113,7 +113,7 @@ h2{
 }
 #arrow{
     font-size: 50px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .column-50{
     height: 100px;   /*ALTEZZA FISSA DA RIMUOVERE  */
@@ -135,13 +135,13 @@ h2{
 .position{
     position: absolute;
     left: 0;
-    bottom: 0;
     top:5px
 }
 
 h1{
+    margin-top:90px;
    font-weight: 800;
-    font-size: 90px;
+    font-size: 80px;
 
 }
 
@@ -174,7 +174,18 @@ h1{
 
 
 /* FINE CLASSI TERZA SEZIONE */
+.column-60{
+    width: 60%;
+    height: 300px; 
+    background-color: coral;
+  
+}
 
+.column-40{
+    width: 40%; 
+    height: 300px; 
+    background-color: pink;
+}
 /* INIZIO CLASSI QUARTA SEZIONE */
 /* FINE CLASSI QUARTA SEZIONE */
 /* INZIO CLASSI QUINTA SEZIONE */
