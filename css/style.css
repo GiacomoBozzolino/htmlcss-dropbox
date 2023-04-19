@@ -7,24 +7,53 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+/*  CLASSI UTILITIES */
 .style-button{
     font-size: 20px;
     padding: 5px 10px;
     background-color: rgba(0,97,255,255);
     color: white;
-
+    border: none;
 }
-
-a{
+ul{
+    list-style-type: none;
+}
+a {
     text-decoration: none;
     color: black;
 }
+
+p{
+    font-size: 17px;
+    padding-right: 10px;
+}
+.column-60{
+    width: 60%; 
+  
+}
+
+.column-40{
+    width: 40%; 
+    
+}
+
+.column-100{    
+    /* height: 300px; */
+    width: 100%;
+ 
+    /* background-color: chocolate; */
+}
+.content{
+   margin: 20px 0;
+}
+
+.style-ul > li{
+    padding: 20px 0;
+
+}
 /* INIZIO CLASSI HEADER */
 header{
-    height: 100px;
-    
-    
+    height: 100px;  
 }
 
 .row{
@@ -55,17 +84,16 @@ header{
 
 /* FINE CLASSI HEADER */
 
-
-
-
 /* INIZIO CLASSI MAIN */
 /* CLASSI PRIMA SEZIONE */
 .jumbotron{
     background-color: rgba(180,208,231,255);
 }
+
 .big-container{
     max-width: 1400px;
     margin:0 auto;
+   
 }
 
 .column-50{
@@ -76,9 +104,6 @@ header{
    
 }
 
-.content{
-   
-}
 
 .position-relative{
     position:relative
@@ -90,17 +115,21 @@ header{
     width: 50%;
 }
 
-.right{
+.position{
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
-    top:30px
+    top:5px
 }
 
 h1{
    font-weight: 800;
     font-size: 90px;
 
+}
+
+.img-dimension{
+    width: 90%;
 }
 /* FINE CLASSI PRIMA SEZIONE */
 /* INZIO CLASSI SECONDA SEZIONE */
@@ -114,12 +143,7 @@ h1{
     flex-wrap: wrap;
 }
 
-.column-100{    
-    height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
-    width: 100%;
-    margin: 10px;
-    background-color: chocolate;
-}
+
 
 
 .column-33{    
@@ -132,19 +156,7 @@ h1{
 /* FINE CLASSI SECONDA SEZIONE */
 /* INIZIO CLASSI TERZA SEZIONE */
 
-.column-60{
-    height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
-    width: 60%;
-    background-color: darkgreen;
-    margin: 10px;
-}
 
-.column-40{
-    height: 300px;/*ALTEZZA FISSA DA RIMUOVERE  */
-    width: 40%;
-    background-color: darkblue;
-    margin: 10px;
-}
 
 /* FINE CLASSI TERZA SEZIONE */
 
