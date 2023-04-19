@@ -12,6 +12,7 @@ header{
 
 .row{
     height: 100%;
+    display: flex;
 }
 .column-100{
     height: 100%;
@@ -26,7 +27,7 @@ header{
 }
 /* FINE CLASSI HEADER */
 /* INIZIO CLASSI MAIN */
-
+/* CLASSI PRIMA SEZIONE */
 .jumbotron{
     background-color: dodgerblue;
 }
@@ -63,4 +64,30 @@ header{
     bottom: 0;
     top:30px
 
+}
+/* FINE CLASSI PRIMA SEZIONE */
+/* INZIO CLASSI SECONDA SEZIONE */
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 20px;
+}
+
+.second-section{
+    flex-wrap: wrap;
+}
+
+.column-33{    /*RIVEDERE NOME CLASSE  */
+    height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
+    width: calc(100% - 20px);
+    margin: 10px;
+    background-color: chocolate;
+}
+
+
+.column-price{    /*RIVEDERE NOME CLASSE  */
+    height: 200px; /*ALTEZZA FISSA DA RIMUOVERE  */
+    width: calc(100%/3 - 20px);
+    margin: 10px;
+    background-color: rgb(167, 17, 32);
 }
