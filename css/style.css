@@ -91,3 +91,17 @@ header{
     margin: 10px;
     background-color: rgb(167, 17, 32);
 }
+
+.column-60{
+    height: 300px;
+    width: 60%;
+    background-color: darkgreen;
+    margin: 10px;
+}
+
+.column-40{
+    height: 300px;
+    width: 40%;
+    background-color: darkblue;
+    margin: 10px;
+}
