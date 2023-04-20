@@ -42,7 +42,7 @@ p{
 .column-100{    
     /* height: 300px; */
     width: 100%;
-    margin: 20px 0;
+    /* margin: 20px 0; */
  
     /* background-color: chocolate; */
 }
@@ -250,13 +250,14 @@ h4{
 }
 
 .img-dimension-fix{
-    width: 200px;
+    width: 50%;
+    /* height: 50%; */
+    filter: invert(100%);
+
 }
 .column-50{
-     
-    background-color: rgb(182, 195, 40);
-    
-    width: calc(100%/2 - 20px);
+    width: calc(100%/2);
+    height: calc(100%/2);
 }
 
 .flex-center{
@@ -306,6 +307,35 @@ h4{
 .angle_down{
     padding:0 40px;
 }
+
+#square-1{
+    background-color: rgba(162,211,155,255) ;
+}
+
+#square-2{
+    background-color:rgba(97,8,43,255) ;
+}
+
+#square-3{
+    background-color:rgba(0,147,206,255) ;
+}
+
+#square-4{
+    background-color:rgba(255,28,28,255) ;
+}
+#square-5{
+    background-color:rgba(213,0,31,255) ;
+}
+#square-6{
+    background-color:rgba(180,208,231,255) ;
+}
+#square-7{
+    background-color:rgba(13,36,129,255) ;
+}#square-8{
+    background-color:rgba(255,216,48,255) ;
+}
+
+
 /* FINE CLASSI MAIN */
 /* CLASSI FOOTER */
 footer{
