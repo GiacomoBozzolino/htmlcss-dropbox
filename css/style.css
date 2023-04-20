@@ -10,13 +10,13 @@ body{
 /*  CLASSI UTILITIES */
 .style-button{
     font-size: 20px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     background-color: rgba(0,97,255,255);
     color: white;
     border: none;
 }
 ul{
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 a {
     text-decoration: none;
@@ -40,11 +40,12 @@ p{
 .column-100{    
     /* height: 300px; */
     width: 100%;
+    margin: 20px 0;
  
     /* background-color: chocolate; */
 }
 .content{
-   margin: 20px 0;
+   /* margin: 20px 0; */
 }
 
 .style-ul > li{
@@ -92,6 +93,16 @@ header{
     padding-top: 10px;
 }
 
+ul{
+    list-style: none;
+}
+.check::before{
+    content: '✓';
+    padding: 0 5px;
+    font-size: 20px;
+    color:blue
+}
+
 /* FINE CLASSI HEADER */
 
 /* INIZIO CLASSI MAIN */
@@ -103,7 +114,6 @@ header{
 .big-container{
     max-width: 1400px;
     margin:0 auto;  
-
 }
 
 h2{
@@ -126,12 +136,6 @@ h2{
     position:relative
 }
 
-.description{
-    background-color: blueviolet;
-    height: 300px; /*ALTEZZA FISSA DA RIMUOVERE  */
-    width: 50%;
-}
-
 .position{
     position: absolute;
     left: 0;
@@ -142,7 +146,6 @@ h1{
     margin-top:90px;
    font-weight: 800;
     font-size: 80px;
-
 }
 
 .img-dimension{
@@ -162,12 +165,40 @@ h1{
 }
 
 .column-33{    
-    
+    border: 1px solid black;
     width: calc(100%/3 - 20px);
     margin: 10px;
-    background-color: rgb(167, 17, 32);
+    
 }
 
+.user{
+    text-align: center;
+    border-bottom: 1px solid black; 
+    padding:10px
+
+}
+
+.price-list{
+    margin:20px 20px
+}
+
+.price-list > li{
+    padding: 5px 0;
+}
+
+.purchase-link{
+    padding: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+hr{
+    width: 10%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
 /* FINE CLASSI SECONDA SEZIONE */
 /* INIZIO CLASSI TERZA SEZIONE */
 
