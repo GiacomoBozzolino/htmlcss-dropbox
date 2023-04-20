@@ -243,11 +243,14 @@ h4{
 /* INZIO CLASSI QUINTA SEZIONE */
 .position-center{
     position: absolute;
-    margin:0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     
+}
+
+.img-dimension-fix{
+    width: 200px;
 }
 .column-50{
      
@@ -256,10 +259,11 @@ h4{
     width: calc(100%/2 - 20px);
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: ;
+.flex-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
 }
 
 .column-logo{
