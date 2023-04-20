@@ -22,7 +22,7 @@ ul{
     list-style-type: none;
 }
 
-a {
+header a {
     text-decoration: none;
     color: black;
 }
@@ -136,12 +136,6 @@ h2{
     font-size: 50px;
     margin-top: 30px;
 }
-.column-50{
-    height: 100px;   /*ALTEZZA FISSA DA RIMUOVERE  */
-    background-color: rgb(182, 195, 40);
-    margin: 10px;
-    width: calc(100%/2 - 20px);
-}
 
 .position-relative{
     position:relative
@@ -155,7 +149,7 @@ h2{
 
 h1{
     margin-top:90px;
-   font-weight: 800;
+    font-weight: 800;
     font-size: 80px;
 }
 
@@ -176,7 +170,6 @@ h1{
 }
 
 .column-33{    
-
     width: calc(100%/3 - 20px);
     margin: 10px;
     
@@ -186,7 +179,7 @@ h1{
     text-align: center;
     border-bottom: 1px solid black; 
     padding:10px
-
+    
 }
 
 .price-list{
@@ -224,7 +217,7 @@ h3 {
 
 h4{
     padding-bottom: 20px;
-
+    
 }
 
 /* li div{
@@ -238,16 +231,51 @@ h4{
 /* FINE CLASSI TERZA SEZIONE */
 .column-60{
     width: 60%;
-  
+    
 }
 
 .column-40{
     width: 40%; 
-
+    
 }
 /* INIZIO CLASSI QUARTA SEZIONE */
 /* FINE CLASSI QUARTA SEZIONE */
 /* INZIO CLASSI QUINTA SEZIONE */
+.position-center{
+    position: absolute;
+    margin:0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.column-50{
+     
+    background-color: rgb(182, 195, 40);
+    
+    width: calc(100%/2 - 20px);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: ;
+}
+
+.column-logo{
+    width: calc(100%/3);
+   height: calc(100vw/3)
+};
+    
+        
+   
+
+.column-20{
+    height: 300px;/*ALTEZZA FISSA DA RIMUOVERE  */
+    width: 20%;
+    background-color: darkblue;
+    margin: 10px;
+}
 /* FINE CLASSI QUINTA SEZIONE */
 
 /* FINE CLASSI MAIN */
@@ -257,12 +285,7 @@ footer{
     color: white;
 }
 
-.column-20{
-    height: 300px;/*ALTEZZA FISSA DA RIMUOVERE  */
-    width: 20%;
-    background-color: darkblue;
-    margin: 10px;
-}
+
 
 #language{
     display: inline-block;
