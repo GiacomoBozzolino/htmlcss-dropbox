@@ -40,14 +40,11 @@ p{
 }
 
 .column-100{    
-    /* height: 300px; */
     width: 100%;
-    /* margin: 20px 0; */
- 
-    /* background-color: chocolate; */
+  
 }
 .content{
-   /* margin: 20px 0; */
+   margin: 20px 0;
 }
 
 .style-ul > li{
@@ -65,12 +62,17 @@ p{
 .border{
     border: 1px solid black;
 }
-
-
 .padding{
-    padding: 30px;
+    padding: 20px;
 }
 
+
+
+.margin-bottom{
+    margin-bottom:100px;
+    margin-top: 40px;
+
+}
 /* FINE CLASSI UTILITIES */
 /* INIZIO CLASSI HEADER */
 header{
@@ -169,12 +171,22 @@ h1{
     
 }
 
-.column-33{    
-    width: calc(100%/3 - 20px);
-    margin: 10px;
-    
+.column-price {    
+    width: 30%; 
 }
 
+#olny-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.column-33{
+    margin: 10px;
+    width: calc(100%/3 - 20px)
+}
+
+#central-price-margin{
+    /* margin:0 20px */
+}
 .user{
     text-align: center;
     border-bottom: 1px solid black; 
@@ -212,6 +224,7 @@ hr{
 }
 
 h3 {
+    font-size: 25px;
     padding: 20px 0;
 }
 
