@@ -165,7 +165,7 @@ h1{
 }
 
 .img-dimension{
-    width: 90%;
+    width: 100%;
 }
 /* FINE CLASSI PRIMA SEZIONE */
 /* INZIO CLASSI SECONDA SEZIONE */
@@ -260,6 +260,7 @@ h4{
 /* FINE CLASSI TERZA SEZIONE */
 .column-60{
     width: 60%;
+    margin-right: 40px;
     
 }
 
@@ -322,6 +323,10 @@ h4{
     color: gray;
 
 }
+
+#logo-dimension{
+    width: 50%;
+}
 /* FINE CLASSI QUINTA SEZIONE */
 .flex-space-between{
     display: flex;
@@ -352,6 +357,7 @@ h4{
 
 #square-1{
     background-color: rgba(162,211,155,255) ;
+    border: 15px solid rgba(209,233,205,255);
 }
 
 #square-2{
