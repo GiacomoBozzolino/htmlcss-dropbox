@@ -17,6 +17,7 @@ li{
     background-color: rgba(0,97,255,255);
     color: white;
     border: none;
+    width: 300px;
 }
 ul{
     list-style-type: none;
