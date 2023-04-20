@@ -14,11 +14,15 @@ li{
 .style-button{
     font-size: 20px;
     padding: 10px 15px;
+    margin: 30px 0;
     background-color: rgba(0,97,255,255);
     color: white;
     border: none;
     width: 300px;
 }
+
+
+    
 ul{
     list-style-type: none;
 }
@@ -133,8 +137,9 @@ main a{
 
 h2{
     font-size: 40px;
-    padding: 30px 0;
+    padding-top: 30px;
     margin-top: 40px;
+    padding-bottom: 60px;
 }
 #arrow{
     font-size: 50px;
@@ -390,5 +395,8 @@ footer a {
 #language{
     display: inline-block;
     border-top: 1px solid white;
-    padding: 10px 0;
+    padding-top: 40px;
+    padding-right: 20px;
+
+   
 }
