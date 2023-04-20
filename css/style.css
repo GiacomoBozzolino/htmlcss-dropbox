@@ -282,10 +282,9 @@ h4{
    
 
 .column-20{
-    height: 300px;/*ALTEZZA FISSA DA RIMUOVERE  */
+  
     width: 20%;
-    background-color: darkblue;
-    margin: 10px;
+    margin: 40px 10px;
 }
 /* FINE CLASSI QUINTA SEZIONE */
 .flex-space-between{
@@ -313,11 +312,19 @@ footer{
     background-color: black;
     color: white;
 }
+footer a {
+    text-decoration: none;
+    color: white;
+}
 
+.footer-list li{
+    padding: 5px 0;
+
+}
 
 
 #language{
     display: inline-block;
-    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     padding: 10px 0;
 }
