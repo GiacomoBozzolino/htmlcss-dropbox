@@ -66,8 +66,6 @@ p{
     padding: 20px;
 }
 
-
-
 .margin-bottom{
     margin-bottom:100px;
     margin-top: 40px;
@@ -119,6 +117,9 @@ ul{
 /* FINE CLASSI HEADER */
 
 /* INIZIO CLASSI MAIN */
+main a{
+    color: cornflowerblue;
+}
 /* CLASSI PRIMA SEZIONE */
 .jumbotron{
     background-color: rgba(180,208,231,255);
@@ -184,16 +185,15 @@ h1{
     width: calc(100%/3 - 20px)
 }
 
-#central-price-margin{
-    /* margin:0 20px */
-}
 .user{
     text-align: center;
     border-bottom: 1px solid black; 
-    padding:10px
-    
+    padding:10px 
 }
 
+.fa-solid{
+    padding-right: 5px;
+}
 .price-list{
     margin:20px 20px
 }
@@ -215,6 +215,13 @@ hr{
     margin-left: 20px;
     margin-top: 10px;
     border-bottom: 0;
+}
+
+.grey-text{
+    color: grey;
+}
+.bold{
+    font-weight: 700;
 }
 /* FINE CLASSI SECONDA SEZIONE */
 .position-button{
@@ -282,7 +289,8 @@ h4{
 
 .column-logo{
     width: calc(100%/3);
-   height: calc(100vw/3)
+   height: calc(100vw/3);
+   background-color:rgba(245,245,245,255) ;
 }
 
 
@@ -292,13 +300,18 @@ h4{
     align-items: center;
 }
     
-        
-   
-
 .column-20{
   
     width: 20%;
     margin: 40px 10px;
+}
+
+#hr-logo-svg{
+    margin: 30px 0;
+    width: 20%;
+    border-bottom: 0;
+    color: gray;
+
 }
 /* FINE CLASSI QUINTA SEZIONE */
 .flex-space-between{
@@ -306,6 +319,13 @@ h4{
     justify-content: space-between;
     align-items: center;
 }
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
 
 #faq{
     border-bottom: 1px solid black;
