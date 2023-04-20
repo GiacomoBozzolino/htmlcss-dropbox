@@ -269,7 +269,14 @@ h4{
 .column-logo{
     width: calc(100%/3);
    height: calc(100vw/3)
-};
+}
+
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
     
         
    
@@ -281,7 +288,25 @@ h4{
     margin: 10px;
 }
 /* FINE CLASSI QUINTA SEZIONE */
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#faq{
+    border-bottom: 1px solid black;
+}
+
+.accordion{
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+    font-weight: 700;
+}
+
+.angle_down{
+    padding:0 40px;
+}
 /* FINE CLASSI MAIN */
 /* CLASSI FOOTER */
 footer{
@@ -293,6 +318,6 @@ footer{
 
 #language{
     display: inline-block;
-    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 10px 0;
 }
