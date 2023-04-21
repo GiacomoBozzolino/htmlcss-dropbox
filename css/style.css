@@ -13,11 +13,16 @@ li{
 /*  CLASSI UTILITIES */
 .style-button{
     font-size: 20px;
-    padding: 10px 40px;
+    padding: 10px 20px;
     margin: 30px 0;
     background-color: rgba(0,97,255,255);
     color: white;
     border: none; 
+   
+}
+
+.width-button{
+width: 90%;
 }
 
 .flex{
@@ -112,7 +117,8 @@ ul{
 }
 .check::before{
     content: '✓';
-    padding: 0 5px;
+    padding-right:5px;
+   padding-bottom: 10px;
     font-size: 20px;
     color:blue
 }
@@ -173,12 +179,72 @@ h1{
     max-width: 1170px;
     margin-top: 50px;
 }
-
+/* STILIZZAZIONE RADIO BUTTON */
 .radio{
-    padding-right: 10px;
-    padding-bottom: 30px;
-    
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
+
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.radio:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+.radio input:checked ~ .checkmark {
+    background-color: #2196F3;
+} 
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+.radio .checkmark:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+/* FINE STILIZZAZIONE RADIO BUTTON */
+
 
 .column-price {    
     width: 30%; 
@@ -382,7 +448,9 @@ h4{
     background-color:rgba(255,216,48,255) ;
 }
 
-
+#h2-color{
+    color: rgba(113,37,59,255) ;
+}
 
 
 /* FINE CLASSI MAIN */
