@@ -127,6 +127,14 @@ button{
     background-color: rgba(0,97,255,255);
     border: none; 
     color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {background-color: rgba(3, 45, 128, 0.863)}
+
+button:active {
+ transform: translateY(4px);
 }
 
 .white-button{
@@ -456,7 +464,7 @@ footer a {
     padding-top: 40px;
     padding-right: 20px;
 }
-/* CLASSI FOOTER */
+/* FINE CLASSI FOOTER */
 
   section.faq {
     padding-top: 2em;
