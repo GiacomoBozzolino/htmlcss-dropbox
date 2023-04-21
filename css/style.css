@@ -10,7 +10,13 @@ body{
 li{
     display: flex;
 }
+
 /*  CLASSI UTILITIES */
+.row{
+    height: 100%;
+    display: flex; 
+}
+
 .style-button{
     font-size: 20px;
     padding: 10px 20px;
@@ -18,11 +24,6 @@ li{
     background-color: rgba(0,97,255,255);
     color: white;
     border: none; 
-   
-}
-
-.width-button{
-width: 90%;
 }
 
 .flex{
@@ -33,15 +34,11 @@ ul{
     list-style-type: none;
 }
 
-header a {
-    text-decoration: none;
-    color: black;
-}
-
 p{
     font-size: 17px;
     
 }
+
 .column-70{
     width: 70%; 
 }
@@ -54,18 +51,22 @@ p{
     width: 100%;
   
 }
+
 .content{
    margin: 20px 0;
 }
 
 .style-ul > li{
     padding: 20px 0;
-
 }
+
+ul{
+    list-style: none;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
-
 
 .border{
     border: 1px solid rgb(142, 140, 140);
@@ -77,17 +78,18 @@ p{
 .margin-bottom{
     margin-bottom:100px;
     margin-top: 40px;
-
 }
+
 /* FINE CLASSI UTILITIES */
+
 /* INIZIO CLASSI HEADER */
 header{
     height: 100px;  
 }
 
-.row{
-    height: 100%;
-    display: flex; 
+header a {
+    text-decoration: none;
+    color: black;
 }
 
 .column-nav{
@@ -107,25 +109,7 @@ header{
     margin:0 10px;
 }
 
-#logo{
-    display: inline-block;
-    padding-top: 10px;
-}
 
-ul{
-    list-style: none;
-}
-.check::before{
-    content: '✓';
-    padding-right:5px;
-   padding-bottom: 10px;
-    font-size: 20px;
-    color:blue
-}
-
-#nav-button{
-    width: 100px;
-}
 /* FINE CLASSI HEADER */
 
 /* INIZIO CLASSI MAIN */
@@ -250,6 +234,15 @@ h1{
     width: 30%; 
 }
 
+.check::before{
+    content: '✓';
+    padding-right:5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color:blue
+}
+
+
 #olny-space-between{
     display: flex;
     justify-content: space-between;
@@ -296,6 +289,10 @@ hr{
 }
 .bold{
     font-weight: 700;
+}
+
+.width-button{
+    width: 90%;
 }
 /* FINE CLASSI SECONDA SEZIONE */
 .position-button{
