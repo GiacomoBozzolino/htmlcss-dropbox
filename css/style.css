@@ -201,6 +201,11 @@ h1{
     position: absolute;
     top:85px
 }
+
+#link-no-color{
+    color: black;
+}
+
 /* FINE CLASSI PRIMA SEZIONE */
 
 /* INZIO CLASSI SECONDA SEZIONE */
@@ -291,7 +296,7 @@ h1{
 
 .fa-solid{
     padding-right: 5px;
-    color: black;
+    
 }
 
 .price-list{
